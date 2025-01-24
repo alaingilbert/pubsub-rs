@@ -18,7 +18,7 @@
 //!
 //! # Basic Usage
 //! ```rust
-//! use pubsub::{Pubsub, PubsubError};
+//! use pubsub_rs::{Pubsub, PubsubError};
 //!
 //! #[tokio::main]
 //! async fn main() {
@@ -64,7 +64,7 @@ use async_channel::{unbounded, Receiver, Sender};
 use dashmap::DashMap;
 
 #[cfg(test)]
-mod test;
+mod tests;
 
 /// A trait that defines the requirements for types that can be used as Pubsub topics.
 ///
@@ -248,7 +248,7 @@ impl<T, P> Payload<T, P> {
 ///
 /// # Examples
 /// ```rust
-/// use pubsub::Pubsub;
+/// use pubsub_rs::Pubsub;
 /// async fn some_fn() {
 ///     let pubsub: Pubsub<&str, String> = Pubsub::new();
 ///     let subscriber = pubsub.subscribe(vec!["topic1", "topic2"]).await;
