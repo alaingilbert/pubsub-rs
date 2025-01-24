@@ -1,0 +1,14 @@
+[package]
+name = "pubsub-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/alaingilbert/pubsub-rs"
+description = "This crate provides a simple yet powerful publish-subscribe (pubsub) system that allows multiple subscribers to receive messages published to specific topics. It is designed to be thread-safe, async-friendly, memory-efficient, and supports clean shutdown."
+keywords = ["pubsub", "publish", "subscribe"]
+
+[dependencies]
+async-channel = "2.3.1"
+tokio = { version = "1.43.0", features = ["full"] }
+dashmap = "6.1.0"
