@@ -1,6 +1,6 @@
 # Pubsub Crate
 
-[![Crates.io](https://img.shields.io/crates/v/pubsub)](https://crates.io/crates/pubsub-rs)
+[![Crates.io](https://img.shields.io/crates/v/pubsub-rs)](https://crates.io/crates/pubsub-rs)
 [![Docs.rs](https://docs.rs/pubsub/badge.svg)](https://docs.rs/pubsub-rs)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
